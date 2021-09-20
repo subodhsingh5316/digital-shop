@@ -4,7 +4,8 @@
   "description": "MEARN shopping cart",
   "main": "server.js",
   "scripts": {
-    "start": "node backend/server"
+    "start": "node backend/server",
+    "heroku-postbuild":"NPM_CONFIG PRODUCTION=false"
   },
   "author": "",
   "license": "MIT",
